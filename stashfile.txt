@@ -1,3 +1,0 @@
-git stash (then git add -> file to staged)
-git stash -u (You can directly put all untracked files into stash)
-git stash pop (To get the file back from stash stage to available for work)
