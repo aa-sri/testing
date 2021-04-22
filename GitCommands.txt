@@ -1,0 +1,29 @@
+This the document for git commands
+
+* To create a a git repository you have to use below command in project folder
+$ git init
+
+* To see the what's happening with your repository you can type
+$ git status
+
+* To track the files in your directory you can use 
+$ git add file1.txt file2.txt etc
+$ git add . [this command will add all files in the directory for tracking]
+
+* Once files or changes have staged we ready to commit them to our repository to that
+$ git commit -m "Write your message"
+
+* Once done with commit you have to setup things like email and user name
+$ git config --global user.email "you@example.com"
+$ git config --global user.name "Your Name"
+
+* If you want unstage a file you can use 
+$ git rm --cached <file>... to unstage
+
+* If you want avilable your files to everyone you have to push this into your remote repository for that we have to 
+$ git remote add origin "URL of repository from git" 
+
+* To push the changes to your repository enter the command
+$ git push origin <branch-name> enter
+
+
